@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> local Storage </title>
+</head>
+
+<body>
+    <h3> local Storage</h3>
+    <h2>
+        --- Stores data for one session that is data is lost when the browser tab is closed
+    </h2>
+    <h2>
+        --- Even with page refresh data survives that is data will not lost or cleared
+    </h2>
+    <script>
+
+        window.localStorage.setItem("Name", "Reshma Patil");
+        window.localStorage.setItem("City", "Islampur");
+        window.localStorage.setItem("Pin_code", "415313");
+        window.localStorage.setItem("Country", "India");
+        window.localStorage.setItem("Country", "US"); // To update the Item
+
+        window.localStorage.removeItem("Pin_code", "415313"); // to remove
+
+        const no_of_items  = window.localStorage.length;
+        console.log("Number of Items is ", no_of_items);
+
+    </script>
+</body>
+
+</html>

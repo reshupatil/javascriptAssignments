@@ -1,0 +1,15 @@
+var age = 30; //number
+age ="Thirty";
+age = false;
+age = null;
+var myName = "Reshma Patil"; //string
+var isMarried = true; // Boolien
+
+var price = 33.45; //Number
+console.log(age, myName, isMarried);
+
+var cup; //undefined
+console.log(cup);
+
+var mug = null; //null
+console.log(mug);
